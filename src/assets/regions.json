@@ -1,58 +1,58 @@
 {
-    "Sherman-Plano-Richardson" : {
-        "steps" : [
-            "Take US 75 South toward downtown Dallas",
-            "Park at a DART park and ride along the DART Red Line",
-            "Take the southbound Red Line toward downtown / Westmoreland station",
-            "Get off the train at Pearl/Arts District station",
-            "Board the eastbound Green Line toward Buckner Station",
-            "Get off the train at Fair Park Station"
-        ]
-    },
-    "Austin-Waco" : {
-        "steps": [
-            "Take I-35 North toward downtown Dallas",
-            "Park at Hampton Station Park and Ride",
-            "Board the northbound Red Line to Parker Road Station",
-            "Get off the train at West End Station",
-            "Board the eastbound Green Line toward Buckner Station",
-            "Get off the train at Fair Park Station"
-        ]
-    },
-    "Fort Worth-Abilene-Weatherford" : {
-        "steps": [
-            "Take I-30 East toward Dallas/Fort Worth",
-            "Park at the Fort Worth T&P Station",
-            "Board the eastbound TRE train toward Dallas",
-            "Get off the TRE at Victory Station",
-            "Board the Green Line toward Buckner Station",
-            "Get off the train at Fair Park Station"
-        ]
-    },
-    "Denton-Lewisville-Gainesville" : {
-        "steps": [
-            "Take Interstate 35E South toward Dallas",
-            "Park at the DART North Carrolton/Frankford Station Park and Ride",
-            "Board the southbound DART Green Line train toward Buckner Station",
-            "Get off the train at Fair Park Station"
-        ]
-    },
-    "Houston-Huntsville-Corsicana" : {
-        "steps": [
-            "Take I-45 north toward Dallas",
-            "Park at the DART Lawnview Station Park and Ride",
-            "Board the northbound Green Line train toward North Carrolton / Frankford Station",
-            "Get off the train at Fair Park Station"
-        ]
-    },
-    "Texarkana-Greenville-Rockwall" : {
-        "steps": [
-            "Take I-30 East toward Dallas/Fort Worth",
-            "Park at DART's Rowlett Station Park and Ride",
-            "Take the southbound Blue Line train toward UNT Dallas Station",
-            "Get off the train at Pearl/Arts District station",
-            "Board the southbound DART Green Line train toward Buckner Station",
-            "Get off the train at Fair Park Station"
-        ]
-    }
+  "Sherman-Plano-Richardson": {
+    "steps": [
+      "Take US 75 South toward downtown Dallas",
+      "Park at a DART park and ride along the DART Red Line",
+      "Take the southbound Red Line toward downtown / Westmoreland station",
+      "Get off the train at Pearl/Arts District station",
+      "Board the eastbound Green Line toward Buckner Station",
+      "Get off the train at Fair Park Station"
+    ]
+  },
+  "Austin-Waco": {
+    "steps": [
+      "Take I-35 North toward downtown Dallas",
+      "Park at Hampton Station Park and Ride",
+      "Board the northbound Red Line to Parker Road Station",
+      "Get off the train at West End Station",
+      "Board the eastbound Green Line toward Buckner Station",
+      "Get off the train at Fair Park Station"
+    ]
+  },
+  "Fort Worth-Abilene-Weatherford": {
+    "steps": [
+      "Take I-30 East toward Dallas/Fort Worth",
+      "Park at the Fort Worth T&P Station",
+      "Board the eastbound TRE train toward Dallas",
+      "Get off the TRE at Victory Station",
+      "Board the Green Line toward Buckner Station",
+      "Get off the train at Fair Park Station"
+    ]
+  },
+  "Denton-Lewisville-Gainesville": {
+    "steps": [
+      "Take Interstate 35E South toward Dallas",
+      "Park at the DART North Carrolton/Frankford Station Park and Ride",
+      "Board the southbound DART Green Line train toward Buckner Station",
+      "Get off the train at Fair Park Station"
+    ]
+  },
+  "Houston-Huntsville-Corsicana": {
+    "steps": [
+      "Take I-45 north toward Dallas",
+      "Park at the DART Lawnview Station Park and Ride",
+      "Board the northbound Green Line train toward North Carrolton / Frankford Station",
+      "Get off the train at Fair Park Station"
+    ]
+  },
+  "Texarkana-Greenville-Rockwall": {
+    "steps": [
+      "Take I-30 East toward Dallas/Fort Worth",
+      "Park at DART's Rowlett Station Park and Ride",
+      "Take the southbound Blue Line train toward UNT Dallas Station",
+      "Get off the train at Pearl/Arts District station",
+      "Board the southbound DART Green Line train toward Buckner Station",
+      "Get off the train at Fair Park Station"
+    ]
+  }
 }
