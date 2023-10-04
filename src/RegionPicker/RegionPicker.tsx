@@ -1,5 +1,11 @@
 import React from 'react';
 
+interface RegionPickerProps {
+    selectedRegion: string;
+    setSelectedRegion: (region: string) => void;
+    regions: Record<string, { steps: string[] }>;
+}
+
 /**
  * Show available regions and allow the user to select them.
  * 
@@ -10,11 +16,15 @@ import React from 'react';
  * 
  * @returns {JSX.Element}
  */
-const RegionPicker = ({selectedRegion, setSelectedRegion, regions}) => {
+const RegionPicker: React.FC<RegionPickerProps> = ({selectedRegion, setSelectedRegion, regions}) => {
     return(
         <div className="region-picker">
             {Object.keys(regions).map(region => (
-                <button key={region} onClick={() => setSelectedRegion(region)}>
+                <button
+                    key={region}
+                    onClick={() => setSelectedRegion(region)}
+                    className={region === selectedRegion ? 'selected-region' : ''}
+                >
                     {region}
                 </button>
             ))}
