@@ -1,0 +1,22 @@
+name: Check on PR
+on:
+  pull_request:
+    branches:
+      - main
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+      - run: npm i
+      - name: Check types
+        run: npm run check-types
+      - name: Lint
+        run: npm run lint
+      - name: Check prettiness
+        run: npx prettier --check .
+      - name: Build the app
+        run: npm run build
