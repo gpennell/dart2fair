@@ -23,12 +23,12 @@ const RegionPicker: React.FC<RegionPickerProps> = ({
   regions,
 }) => {
   return (
-    <div className={classes.regionPicker}>
+    <div className={classes["region-picker"]}>
       {Object.keys(regions).map((region) => (
         <button
           key={region}
           onClick={() => setSelectedRegion(region)}
-          className={region === selectedRegion ? "selected-region" : ""}
+          aria-selected={region === selectedRegion ? "true" : "false"}
         >
           {region}
         </button>
