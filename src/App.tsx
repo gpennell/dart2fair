@@ -11,18 +11,20 @@ function App() {
   return (
     <>
       <main>
-        <h1>DART to the Fair from {selectedRegion}</h1>
-        <RegionPicker
-          selectedRegion={selectedRegion}
-          setSelectedRegion={setSelectedRegion}
-          regions={regionsData}
-        />
-        <div className="instructions-and-map">
-          <RegionInstructions
+        <div id="page-container">
+          <h1>DART to the Fair from {selectedRegion}</h1>
+          <RegionPicker
             selectedRegion={selectedRegion}
+            setSelectedRegion={setSelectedRegion}
             regions={regionsData}
           />
-          <div className="dummy-map"></div>
+          <div className="instructions-and-map">
+            <RegionInstructions
+              selectedRegion={selectedRegion}
+              regions={regionsData}
+            />
+            <div className="dummy-map"></div>
+          </div>
         </div>
       </main>
     </>

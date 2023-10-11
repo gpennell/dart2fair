@@ -1,4 +1,5 @@
 import React from "react";
+import "./RegionInstructions.module.css";
 interface RegionInstructionsProps {
   selectedRegion: string;
   regions: Record<string, { steps: string[] }>;

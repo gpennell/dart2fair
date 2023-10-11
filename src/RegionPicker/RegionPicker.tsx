@@ -1,4 +1,5 @@
 import React from "react";
+import classes from "./RegionPicker.module.css";
 
 interface RegionPickerProps {
   selectedRegion: string;
@@ -22,7 +23,7 @@ const RegionPicker: React.FC<RegionPickerProps> = ({
   regions,
 }) => {
   return (
-    <div className="region-picker">
+    <div className={classes.regionPicker}>
       {Object.keys(regions).map((region) => (
         <button
           key={region}
