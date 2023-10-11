@@ -12,7 +12,7 @@ function App() {
     <>
       <main>
         <div id="page-container">
-          <h1>DART to the Fair from {selectedRegion}</h1>
+          <h1>Park and Ride, Y&apos;all!</h1>
           <RegionPicker
             selectedRegion={selectedRegion}
             setSelectedRegion={setSelectedRegion}

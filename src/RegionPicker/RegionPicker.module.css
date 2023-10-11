@@ -4,3 +4,17 @@
   flex-wrap: wrap;
   justify-content: center;
 }
+
+.region-picker button {
+  background: none;
+  border: none;
+  color: #999;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.region-picker button[aria-selected="true"],
+.region-picker button:hover {
+  text-decoration: underline;
+  color: #003a54;
+}

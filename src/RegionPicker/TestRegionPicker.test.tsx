@@ -61,13 +61,14 @@ test("calls setSelectedRegion when a region button is clicked", async () => {
   await userEvent.click(screen.getByRole("button", { name: "Region 2" }));
 });
 
-test("selected-region class changes on click", async () => {
+test("aria-selected attribute changes on click", async () => {
   render(<TestWrapper />);
 
   await userEvent.click(screen.getByRole("button", { name: "Region 2" }));
 
-  expect(screen.getByRole("button", { name: "Region 2" })).toHaveClass(
-    "selected-region",
+  expect(screen.getByRole("button", { name: "Region 2" })).toHaveAttribute(
+    "aria-selected",
+    "true",
   );
 });
 
@@ -79,11 +80,12 @@ test("renders buttons even if no region selected", async () => {
   });
 });
 
-test("doesn't apply selected-region class to any button if no region selected", async () => {
+test("aria-selected is false for everything if no region is selected", async () => {
   render(<TestWrapperNoRegion />);
   Object.keys(regions).forEach((region) => {
-    expect(screen.getByRole("button", { name: region })).not.toHaveClass(
-      "selected-region",
+    expect(screen.getByRole("button", { name: region })).toHaveAttribute(
+      "aria-selected",
+      "false",
     );
   });
 });
