@@ -12,7 +12,13 @@ function App() {
     <>
       <main>
         <div id="page-container">
-          <h1>Park and Ride, Y&apos;all!</h1>
+          <h1>Park and Ride to the Texas State Fair</h1>
+          <p className="subhead">
+            <strong>
+              Everything you&apos;ve heard about Dallas traffic is true.
+            </strong>{" "}
+            Avoid stress and save money by taking public transit instead.
+          </p>
           <RegionPicker
             selectedRegion={selectedRegion}
             setSelectedRegion={setSelectedRegion}
