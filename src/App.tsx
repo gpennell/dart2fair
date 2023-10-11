@@ -18,7 +18,10 @@ function App() {
           regions={regionsData}
         />
         <div className="instructions-and-map">
-          <RegionInstructions />
+          <RegionInstructions
+            selectedRegion={selectedRegion}
+            regions={regionsData}
+          />
           <div className="dummy-map"></div>
         </div>
       </main>
