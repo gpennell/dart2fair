@@ -1,3 +1,32 @@
 body {
   font-family: sans-serif;
+  color: #003a54;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-transform: uppercase;
+}
+
+h1 {
+  text-align: center;
+}
+
+#page-container {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  padding-top: 1.5em;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+}
+
+.instructions-and-map {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
