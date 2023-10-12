@@ -16,6 +16,10 @@
   font-weight: bold;
 }
 
+.region-picker button:hover {
+  cursor: pointer;
+}
+
 .region-picker button[aria-selected="true"],
 .region-picker button:hover {
   text-decoration: underline;
